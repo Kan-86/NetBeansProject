@@ -14,10 +14,8 @@ import java.util.List;
  */
 public class Student extends Person 
 {    
-    //private double avarageGrade;
     private String education;
     private List<GradeInfo> gradeReport = new ArrayList<>();    
-    //private double grade;
     
     public Student(int id, String name, String education) 
     {
